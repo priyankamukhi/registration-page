@@ -1,0 +1,58 @@
+﻿@model registration.Models.regs
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>regs</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.regsname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.regsname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.regsrollno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.regsrollno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.regsage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.regsage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.regsemailid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.regsemailid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.regscontactno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.regscontactno)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.regsid }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

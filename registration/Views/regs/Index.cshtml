@@ -1,0 +1,57 @@
+﻿@model IEnumerable<registration.Models.regs>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Registration Page</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.regsname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.regsrollno)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.regsage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.regsemailid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.regscontactno)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.regsname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.regsrollno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.regsage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.regsemailid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.regscontactno)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.regsid }) |
+            @Html.ActionLink("Details", "Details", new { id=item.regsid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.regsid })
+        </td>
+    </tr>
+}
+
+</table>
