@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbModelStoreContainer" CdmEntityContainer="dbEntities2">
+    <EntitySetMapping Name="regs">
+      <EntityTypeMapping TypeName="dbModel.reg">
+        <MappingFragment StoreEntitySet="regs">
+          <ScalarProperty Name="regsid" ColumnName="regsid" />
+          <ScalarProperty Name="regsname" ColumnName="regsname" />
+          <ScalarProperty Name="regsrollno" ColumnName="regsrollno" />
+          <ScalarProperty Name="regsage" ColumnName="regsage" />
+          <ScalarProperty Name="regsemailid" ColumnName="regsemailid" />
+          <ScalarProperty Name="regscontactno" ColumnName="regscontactno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

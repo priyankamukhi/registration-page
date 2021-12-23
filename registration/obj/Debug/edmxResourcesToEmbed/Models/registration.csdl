@@ -11,7 +11,7 @@
     <Property Name="regsemailid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="regscontactno" Type="Decimal" Precision="30" Scale="0" />
   </EntityType>
-  <EntityContainer Name="dbEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="dbEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="regs" EntityType="Self.reg" />
   </EntityContainer>
 </Schema>

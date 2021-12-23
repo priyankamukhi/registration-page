@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="reg">
+    <Key>
+      <PropertyRef Name="regsid" />
+    </Key>
+    <Property Name="regsid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="regsname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="regsrollno" Type="Decimal" Precision="30" Scale="0" />
+    <Property Name="regsage" Type="Decimal" Precision="30" Scale="0" />
+    <Property Name="regsemailid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="regscontactno" Type="Decimal" Precision="30" Scale="0" />
+  </EntityType>
+  <EntityContainer Name="dbEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="regs" EntityType="Self.reg" />
+  </EntityContainer>
+</Schema>

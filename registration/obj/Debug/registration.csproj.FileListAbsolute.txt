@@ -98,7 +98,6 @@ C:\Users\Rohit\source\repos\registration\registration\bin\Microsoft.Owin.Securit
 C:\Users\Rohit\source\repos\registration\registration\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Rohit\source\repos\registration\registration\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Rohit\source\repos\registration\registration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache
 C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.csproj.CoreCompileInputs.cache
 C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.csproj.CopyComplete
 C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.dll
