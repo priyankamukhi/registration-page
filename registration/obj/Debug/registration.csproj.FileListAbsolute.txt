@@ -102,3 +102,4 @@ C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.csp
 C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.csproj.CopyComplete
 C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.dll
 C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.pdb
+C:\Users\Rohit\source\repos\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache
